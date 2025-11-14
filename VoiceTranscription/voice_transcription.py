@@ -1,3 +1,8 @@
+"""
+Use sounddevice and scipy to record audio from the microphone, save it as a WAV file, and then
+transcribe it using OpenAI's audio transcription API.
+"""
+
 import os
 from dotenv import load_dotenv
 load_dotenv()
